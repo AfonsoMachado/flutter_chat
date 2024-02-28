@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_chat/core/models/chat_notification.dart';
 
 class ChatNotificationService with ChangeNotifier {
-  List<ChatNotification> _items = [];
+  final List<ChatNotification> _items = [];
 
   int get itemsCount {
     return _items.length;
