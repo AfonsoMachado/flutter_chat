@@ -21,6 +21,10 @@ Um aplicativo de chat ponto a ponto, construído com o objetivo de estudar integ
 $ git clone https://github.com/AfonsoMachado/flutter_chat.git
 ```
 
+### Configurando o Firebase
+
+Adicione o arquivo google-services.json do projeto Firebase na pasta /android/app
+
 ### Instalando dependências e executando
 
 ```bash
